@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios e Inputs</title>
+    <style>
+        label{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+            <p>O formulário</p>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </p>
+
+            <p>
+                <label for="dev1">Sou um dev</label>
+                <input type="checkbox" id="dev1" name="dev1" value="sim"> <br>
+                <label for="dev2">Sou um dev</label>
+                <input type="checkbox" id="dev2" name="dev2" value="sim"> <br>
+                <label for="dev3">Sou um dev</label>
+                <input type="checkbox" id="dev3" name="dev3" value="sim">
+            </p>
+
+            <p>
+                Gênero: <br>
+                <label for="feminino">feminino</label>
+                <input type="radio" id="feminino" name="genero" value="feminino"> <br>
+                <label for="masculino">masculino</label>
+                <input type="radio" id="masculino" name="genero"  value="sim"> <br>
+                <label for="outro(a)">outro(a)</label>
+                <input type="radio" id="outro(a)" name="genero"  value="sim">
+            </p>
+
+            <p>
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required value="2024-07-17">
+            </p>
+
+            <p>
+                <label for="datetime">Data:</label>
+                <input type="datetime-local" id="datetime" name="datetime" required value="2024-07-17T20:00">
+            </p>
+
+            <p>
+                <label for="time">horario:</label>
+                <input type="time" id="time" name="time" required value="20:00:30">
+            </p>
+        <p>
+            <label for="cor">COR:</label>
+            <input type="color" id="cor" name="cor" required value="#33AD99">
+        </p>
+        <p>
+            <label for="cor">Seu email:</label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@email.com">
+        </p>
+        <p>
+            <label for="file">Arquivo:</label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+        </p>
+        <p>
+            <label for="number">Numero:</label>
+            <input type="number" id="number" name="number" placeholder="seu número aqui" required>
+        </p>
+        <p>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        </p>
+
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="0" max="10" required>
+        </p>
+
+        <p>
+            <label for="url">Sua URL:</label>
+            <input type="url" id="url" name="url" placeholder="sua url" required>
+        </p>
+
+        <p>
+            <label for="select">Selecione alguma opção:</label>
+            <select id="select" name="select">
+                <option value="qualquer 1" label="Label 1"></option>
+                <option value="qualquer 2" label="Label 2"></option>
+                <option value="qualquer 3" label="Label 3"></option>
+                <option value="qualquer 4" label="Label 4"></option>
+            </select>
+        </p>
+        <p>
+            <label for="textarea">Digite sua mensagem:</label>
+            <textarea name="textarea" id="Digite sua mensagem" rows="6" cols="30"></textarea>
+        </p>
+
+            <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar</button>
+            </p>
+
+    </form>
+
+</body>
+
+</html>

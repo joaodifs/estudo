@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 800px;
+        }
+        table td, table th{
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        table caption{ 
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom:5px;
+
+        }
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>aisudlbn asudyb lnasd uliahnsd olasd</p>
+    <div class="responsive-table">
+    <table>
+        <caption>Descrição da tabela</caption>
+        <thead>
+            <tr>
+                <th>TÍTULO 1</th>
+                <th>TÍTULO 2</th>
+                <th>TÍTULO 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">DUPLICADA</td>
+                <td>CORPO 3</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>CORPO 1</td>
+                <td>CORPO 2</td>
+                <td>CORPO 3</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>CORPO 1</td>
+                <td>CORPO 2</td>
+                <td>CORPO 3</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
